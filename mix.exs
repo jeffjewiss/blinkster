@@ -43,6 +43,7 @@ defmodule Blinkster.MixProject do
       {:shoehorn, "~> 0.6"},
       {:ring_logger, "~> 0.6"},
       {:toolshed, "~> 0.2"},
+      {:morse, git: "https://github.com/jeffjewiss/morse.git", branch: "slash-spaces"},
 
       # Dependencies for all targets except :host
       {:nerves_runtime, "~> 0.6", targets: @all_targets},
